@@ -1,0 +1,33 @@
+<style>
+    body {
+      background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/640px-Black_colour.jpg);
+    color: rgb(0, 22, 70);
+    padding: 9px;
+    font-family:"Comic Sans MS";
+    font-size: 1.7em}
+    img {
+    margin-right: 500px;
+    padding: 150px;}
+    header {
+    font-size: 1.5em;
+    font-weight: bold;
+   nav-right: 250px;}
+    selector {property:navbar;}
+    @keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+  .spin {
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    animation-timing-function: linear;
+  }
+  </style>
+</head>
+<body>
+<img src="https://i1.sndcdn.com/avatars-AV3PEaTeyoDj8rEf-4QJzow-t500x500.jpg" width="250" height="250" class="spin">
+<audio autoplay loop>
+    <source src="bettercall.mp3" type="audio/mpeg">
+</audio>
